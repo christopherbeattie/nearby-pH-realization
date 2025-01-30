@@ -6,11 +6,12 @@ a port-Hamiltonian system.
 ## Calling format:
 
             [Zhat,sys_out,Resid]=LureLMIsolve(sys_in)
-            
-**Input:** sys_in - Standard system realization (A,B,C,D) with  
-               A=sys_in.A, B=sys_in.B, C=sys_in.C, and D=sys_in.D  
+
+              
+**Input:**  sys_in - Standard system realization (A,B,C,D) with    
+              A=sys_in.A, B=sys_in.B, C=sys_in.C, and D=sys_in.D  
                  
-Returns: Zhat - left factor of positive definite solution Q = Zhat*Zhat'   
+**Returns:** Zhat - left factor of positive definite solution Q = Zhat*Zhat'   
                 to Lure LMI either associated with the given realization  
              (in which case sys_out is "state space equivalent" to sys_in)  
                 OR with a nearby realization that is consistent with   
