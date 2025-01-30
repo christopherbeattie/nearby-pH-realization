@@ -1,0 +1,38 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: nearby-pH-realization
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Christopher
+    family-names: Beattie
+    email: beattie@vt.edu
+    affiliation: Virginia Tech
+    orcid: 'https://orcid.org/0000-0003-3302-4845'
+  - given-names: 'Volker '
+    family-names: Mehrmann
+    email: mehrmann@math.tu-berlin.de
+    affiliation: TU-Berlin
+  - given-names: Hongguo
+    email: feng@ku.edu
+    family-names: Xu
+    affiliation: University of Kansas
+repository-code: >-
+  https://github.com/christopherbeattie/nearby-pH-realization
+abstract: >-
+  This MATLAB livescript demonstrates the computation of a
+  port-Hamiltonian realization of a given linear time
+  invariant system.  If no port-Hamiltonian realization
+  exists, minimal modifications are made to the original
+  system that permits realization as a port-Hamiltonian
+  system.
+keywords:
+  - port-Hamiltonian
+  - system realization
+  - passive systems
+version: '1.0'
+date-released: '2025-01-30'
